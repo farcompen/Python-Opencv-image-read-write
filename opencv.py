@@ -17,9 +17,10 @@ def open_cv_ilk():
 
 
 def plot_uygulama():
-    res=cv2.imread("deneme",0)
+    res=cv2.imread("del.jpg",0)
     plt.imshow(res, cmap='gray', interpolation='bicubic')
     plt.xticks([]), plt.yticks([])
     plt.show()
 
 open_cv_ilk()
+plot_uygulama()
